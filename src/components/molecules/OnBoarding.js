@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         fontSize: 28,
         fontWeight: 'bold',
+        fontFamily:'Poppins-Bold',
         textAlign: 'center',
         marginBottom: 55
     },
@@ -41,7 +42,8 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         textAlign: 'center',
-        marginBottom: 12
+        marginBottom: 12,
+        fontFamily:'Poppins-Bold',
     },
     image: {
         alignItems: 'center',
@@ -55,8 +57,8 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         textAlign: 'center',
         marginHorizontal: 39,
-        letterSpacing: 0.4,
-        lineHeight: 21
+        lineHeight: 21,
+        fontFamily:'Poppins-Light',
     },
     footer: {
         flex: 1,
